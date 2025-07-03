@@ -1,4 +1,4 @@
-# compta-ia-salaires-p1
+# Compta-IA-salaires-p1
 
 # 💼 Automatisation de la saisie comptable avec l’IA
 
