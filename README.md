@@ -34,3 +34,39 @@ Cette première étape consiste à entraîner un modèle à reconnaître les fic
 Cette partie a surtout servi à valider la démarche et à préparer un préapprentissage utile pour la suite du projet.
 
 ---
+
+##  Données utilisées
+
+Les images utilisées dans ce projet proviennent de deux sources :
+
+-  Un dataset personnel que j'ai créé, comprenant :
+	Fiches de paie fictives (au format JPEG)
+	Annotations associées (au format JSON)
+
+➡️ Ces données peuvent être utilisées à des fins non commerciales.  
+➡️ Je dispose d'autres exemples disponibles sur demande.  
+➡️ Je serais reconnaissant si vous me citez si vous utilisez ce dataset, mais cela reste facultatif.
+
+-  Le dataset FUNSD : [https://guillaumejaume.github.io/FUNSD/](https://guillaumejaume.github.io/FUNSD/)
+
+➡️ Le dataset FUNSD est fourni à des fins non commerciales.  
+➡️ Les annotations utilisées dans ce projet sont personnelles et ne proviennent pas du dataset original.
+
+##  Merci de citer :
+
+@inproceedings{jaume2019,  
+    title = {FUNSD: A Dataset for Form Understanding in Noisy Scanned Documents},  
+    author = {Guillaume Jaume, Hazim Kemal Ekenel, Jean-Philippe Thiran},  
+    booktitle = {Accepted to ICDAR-OST},  
+    year = {2019}  
+}
+
+##  Citation suggérée :
+
+@dataset{Gassert2025,  
+    author = {Olivier Gassert},  
+    title = {Échantillon de dataset de fiches de paie fictives},  
+    year = {2025},  
+    note = {Disponible dans le projet GitHub : Compta-IA-salaires-p1}  
+}
+
