@@ -8,7 +8,20 @@ Cette première étape consiste à entraîner un modèle à reconnaître les fic
 
 ---
 
-##  Objectifs de cette première partie
+## Objectifs de cette première partie
+
+### Constitution du dataset
+
+Créer des **fiches de salaire fictives**
+Mélanger ces fiches avec un autre jeu de données (FUNSD) et unifier le format des documents (conversion en JPEG pour utiliser EfficientNetB0)
+Unifier les annotations pour faciliter l'apprentissage supervisé
+
+### Préparation
+
+Uniformisation des images (taille, type, niveaux de gris)
+Scission train/test
+Conversion en tableaux NumPy
+Structure d’accueil des labels
 
 -  Créer des **fiches de salaire fictives**
 -  Mélanger ces fiches avec un autre jeu de données (FUNSD) et unifier le format des documents (conversion en JPEG pour utiliser EfficientNetB0)
