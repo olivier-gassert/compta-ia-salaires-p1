@@ -15,8 +15,8 @@ Cette première étape consiste à entraîner un modèle à reconnaître les fic
 -  Appliquer de la **data augmentation** pour compenser la petite taille du dataset
 -  Unifier les annotations pour faciliter l'apprentissage supervisé
 -  Concevoir deux modèles :
-	Un premier modèle simple pour valider la démarche
-	Un second modèle plus complexe pour améliorer la performance
+	-- Un premier modèle simple pour valider la démarche
+	-- Un second modèle plus complexe pour améliorer la performance
 -  Enregistrer les poids du modèle pour une utilisation ultérieure :
 	Sauvegarde complète avec `model.save`
 	Sauvegarde des poids seuls avec `model.save_weights`
