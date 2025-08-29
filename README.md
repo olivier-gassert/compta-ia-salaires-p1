@@ -43,7 +43,10 @@ Cette première étape consiste à entraîner un modèle à reconnaître les fic
 
 -  Le jeu de données était **trop petit pour un entraînement robuste.**
 -  Les documents provenant de différentes sources (fiches et FUNSD) nécessitaient une **uniformisation des formats et annotations.**
--  La mise en place d’un pipeline simple mais efficace pour un **premier prototype fonctionnel.**
+-  Gestion manuelle de l’importation du dataset (pas de dataset standard préformaté)
+-  Mise en place d’un pipeline simple mais efficace pour un **premier prototype fonctionnel.**
+-  Tentatives d'appliquer de la **data augmentation** pour compenser la petite taille du dataset. Dans un prochain repository.
+
 
 Cette partie a surtout servi à valider la démarche et à préparer un préapprentissage utile pour la suite du projet.
 
