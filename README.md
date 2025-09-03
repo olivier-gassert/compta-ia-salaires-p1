@@ -47,8 +47,15 @@ Cette première étape consiste à entraîner un modèle à reconnaître les fic
 -  Mise en place d’un pipeline simple mais efficace pour un **premier prototype fonctionnel.**
 -  Tentatives d'appliquer de la **data augmentation** pour compenser la petite taille du dataset. Dans un prochain repository.
 
+---
 
-Cette partie a surtout servi à valider la démarche et à préparer un préapprentissage utile pour la suite du projet.
+## Prochaine étape
+
+Cette première partie a permis de valider la démarche et d’entraîner un modèle simple en préapprentissage.
+
+Passer des écritures salariales complètes s’est révélé trop ambitieux pour un premier travail, notamment à cause de la complexité des annotations Bert-like. J’ai donc choisi de scinder le projet en plusieurs étapes : ce repository correspond à la première.
+
+La suite du projet consiste à utiliser ce modèle dans un notebook basé sur LayoutLMv3 (Hugging Face), avec des annotations plus fines et un apprentissage par transfert.
 
 ---
 
